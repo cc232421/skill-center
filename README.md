@@ -1,6 +1,6 @@
 # Skill Center
 
-Claude Code skill 集合。
+OpenClaw skill 集合。
 
 ## Skills
 
