@@ -1,0 +1,23 @@
+{
+  "skill_name": "app-store-reviews",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Fetch 100 reviews for the Instagram app from the US App Store and save them to a CSV file",
+      "expected_output": "A CSV file containing 100 Instagram reviews with columns: date, isEdited, rating, review, title, userName",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Compare TikTok, Instagram, and Snapchat by fetching 200 reviews from each app and generate a competitive analysis report in markdown format",
+      "expected_output": "A markdown report with rating comparisons, sentiment analysis, and detailed app analysis for all three apps",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Analyze the top 3 photo editing apps (VSCO, Lightroom, Snapseed) from App Store reviews and create a JSON report with rating distributions and insights",
+      "expected_output": "A JSON file containing comparative analysis with rating distributions, average ratings, and key insights",
+      "files": []
+    }
+  ]
+}
