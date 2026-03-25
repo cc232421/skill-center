@@ -1,0 +1,189 @@
+{
+  "skill_name": "google-play-scraper",
+  "evals": [
+    {
+      "id": 1,
+      "name": "get-app-details-pokemon-go",
+      "prompt": "Get detailed information about the Pokemon GO app from Google Play Store. I need to know its current rating, number of downloads, developer information, and recent user comments.",
+      "expected_output": "JSON data containing app details including title, description, score, ratings, installs, developer info, and comments",
+      "files": [],
+      "assertions": [
+        {
+          "name": "has_title",
+          "description": "Response contains app title",
+          "check": "output_contains",
+          "target": "title"
+        },
+        {
+          "name": "has_score",
+          "description": "Response contains rating score",
+          "check": "output_contains",
+          "target": "score"
+        },
+        {
+          "name": "has_developer",
+          "description": "Response contains developer information",
+          "check": "output_contains",
+          "target": "developer"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "search-fitness-apps",
+      "prompt": "Search for fitness tracking apps on Google Play Store. Find the top 10 results for 'fitness tracker' and provide their names, ratings, and whether they're free or paid.",
+      "expected_output": "List of search results with app names, ratings, and pricing information",
+      "files": [],
+      "assertions": [
+        {
+          "name": "has_results",
+          "description": "Returns at least 5 search results",
+          "check": "output_contains_multiple",
+          "target": "app_id",
+          "min_count": 5
+        },
+        {
+          "name": "has_ratings",
+          "description": "Results include rating information",
+          "check": "output_contains",
+          "target": "score"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "get-app-reviews-spotify",
+      "prompt": "Get the 50 most recent reviews for Spotify app from Google Play Store. I want to see what users are saying recently, their ratings, and any developer replies.",
+      "expected_output": "List of reviews with user names, content, ratings, timestamps, and replies",
+      "files": [],
+      "assertions": [
+        {
+          "name": "has_reviews",
+          "description": "Returns multiple reviews",
+          "check": "output_contains_multiple",
+          "target": "content",
+          "min_count": 10
+        },
+        {
+          "name": "has_user_names",
+          "description": "Reviews include user names",
+          "check": "output_contains",
+          "target": "user_name"
+        },
+        {
+          "name": "has_scores",
+          "description": "Reviews include star ratings",
+          "check": "output_contains",
+          "target": "score"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "compare-messaging-apps",
+      "prompt": "Compare WhatsApp, Telegram, and Signal apps from Google Play Store. I need a comparison of their ratings, download numbers, and key features to understand which is most popular.",
+      "expected_output": "Comparison table or structured data showing ratings, installs, and key metrics for all three apps",
+      "files": [],
+      "assertions": [
+        {
+          "name": "all_apps_fetched",
+          "description": "Successfully fetches all three apps",
+          "check": "output_contains_multiple",
+          "target": "com.whatsapp",
+          "min_count": 1
+        },
+        {
+          "name": "has_comparison_data",
+          "description": "Includes comparison metrics",
+          "check": "output_contains",
+          "target": "score"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "get-app-permissions-facebook",
+      "prompt": "Get the list of permissions required by the Facebook app on Google Play Store. I want to understand what access the app requests.",
+      "expected_output": "Dictionary of permission categories and specific permissions",
+      "files": [],
+      "assertions": [
+        {
+          "name": "has_permissions",
+          "description": "Returns permission data",
+          "check": "output_contains",
+          "target": "permissions"
+        },
+        {
+          "name": "has_categories",
+          "description": "Permissions are categorized",
+          "check": "output_contains",
+          "target": "Camera"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "batch-fetch-multiple-apps",
+      "prompt": "Get details for these apps in one batch: Instagram (com.instagram.android), TikTok (com.zhiliaoapp.musically), and Twitter (com.twitter.android). Return the data in a structured format.",
+      "expected_output": "Structured data containing details for all three apps",
+      "files": [],
+      "assertions": [
+        {
+          "name": "all_three_apps",
+          "description": "Returns data for all three requested apps",
+          "check": "output_contains_multiple",
+          "target": "com.instagram.android",
+          "min_count": 1
+        },
+        {
+          "name": "has_tiktok",
+          "description": "Includes TikTok data",
+          "check": "output_contains",
+          "target": "com.zhiliaoapp.musically"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "analyze-negative-reviews",
+      "prompt": "Get 100 1-star and 2-star reviews for Uber app (com.ubercab). I want to understand what users are complaining about.",
+      "expected_output": "List of negative reviews with content and ratings",
+      "files": [],
+      "assertions": [
+        {
+          "name": "filtered_reviews",
+          "description": "Returns filtered low-rated reviews",
+          "check": "output_contains",
+          "target": "reviews"
+        },
+        {
+          "name": "low_scores",
+          "description": "Reviews have low scores (1-2 stars)",
+          "check": "output_contains",
+          "target": "score"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "localized-app-search",
+      "prompt": "Search for '音乐播放器' (music player) apps on Google Play Store in Chinese language (zh) and China country (cn). Return the top 10 results.",
+      "expected_output": "Search results localized for Chinese users",
+      "files": [],
+      "assertions": [
+        {
+          "name": "localized_results",
+          "description": "Returns results in Chinese locale",
+          "check": "output_contains",
+          "target": "app_id"
+        },
+        {
+          "name": "has_titles",
+          "description": "Results include app titles",
+          "check": "output_contains",
+          "target": "title"
+        }
+      ]
+    }
+  ]
+}
