@@ -1,0 +1,36 @@
+{
+  "name": "chanlun_analyzer",
+  "version": "1.0.0",
+  "description": "缠论技术分析：分型/笔/线段/中枢/背驰/买卖点识别。基于 gyc567/chanlun 算法实现。",
+  "entry": "chanlun.py",
+  "category": "financial",
+  "tags": ["缠论", "技术分析", "量化交易"],
+  "parameters": {
+    "symbol": {
+      "type": "string",
+      "description": "股票代码，如 000001、AAPL、0700.HK",
+      "required": true
+    },
+    "market": {
+      "type": "string",
+      "enum": ["A", "HK", "US"],
+      "description": "市场类型",
+      "default": "A"
+    },
+    "period": {
+      "type": "string",
+      "enum": ["1m", "5m", "15m", "30m", "60m", "day", "week"],
+      "description": "K线周期",
+      "default": "day"
+    },
+    "start_date": {
+      "type": "string",
+      "description": "起始日期 YYYYMMDD格式"
+    },
+    "end_date": {
+      "type": "string",
+      "description": "结束日期 YYYYMMDD格式"
+    }
+  },
+  "dependencies": ["akshare", "pandas", "numpy", "talib"]
+}
