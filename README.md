@@ -21,3 +21,45 @@ OpenClaw skill 集合。
 用户: "找 肖申克的救赎"
 返回: https://vidsrc.to/embed/movie/tt0111161
 ```
+
+### carbonyl
+
+终端里的 Chromium 浏览器 — 把网页渲染成 ANSI 彩色终端界面，无需显示器，支持 WebGL、音视频、60 FPS。
+
+**触发词：** 终端浏览器、carbonyl、终端渲染网页、AI agent 访问网页、无界面浏览器
+
+### cnblogs-post
+
+发布博客文章到博客园 (cnblogs.com)。支持单篇文章发布、设置分类/标签、存草稿。
+
+**触发词：** 发到博客园、发布到cnblogs、博客园发帖
+
+### fredapi
+
+FRED Economic Data — Python 库封装美联储经济数据 API，支持搜索、获取 GDP、CPI、失业率、利率等宏观经济指标。
+
+**触发词：** economic data、FRED、GDP、CPI、inflation、unemployment rate、interest rates、US economy
+
+### keyword-research
+
+Discover high-value SEO keywords with search intent analysis, difficulty scoring, topic clustering, and AI citation potential.
+
+**触发词：** find keywords、keyword research、keyword difficulty score、topic ideas、long-tail keyword
+
+### lightpanda
+
+Self-contained headless browser for AI agents (Zig, no Chrome needed). 9x faster, 16x less memory than Chrome headless. MCP tools for AI automation.
+
+**触发词：** browse website、scrape、extract page content、headless browser、server-side browsing、lightpanda
+
+### marketing-strategy-pmm
+
+Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Covers April Dunford positioning, ICP definition, battlecards, launch playbooks.
+
+**触发词：** product marketing、PMM、positioning、GTM strategy、go-to-market、competitive analysis、battlecard、product launch
+
+### twitter-post
+
+Post tweets to Twitter/X via the official API v2 (OAuth 1.0a). Supports single tweets, threads, replies, quote tweets with automatic character weight validation.
+
+**触发词：** tweet、post to Twitter、post to X、send a thread、reply to a tweet
