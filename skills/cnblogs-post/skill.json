@@ -1,0 +1,17 @@
+{
+  "name": "cnblogs-post",
+  "version": "1.0.0",
+  "description": "发布博客文章到博客园 (cnblogs.com)。支持单篇文章发布、设置分类/标签、存草稿。通过 MetaWeblog XML-RPC API 实现。",
+  "author": "Droid",
+  "keywords": ["cnblogs", "博客园", "博客", "metaweblog", "xml-rpc", "post"],
+  "triggers": [
+    "发到博客园",
+    "发布到cnblogs",
+    "博客园发帖",
+    "post to cnblogs"
+  ],
+  "entry": "scripts/post.py",
+  "license": "MIT",
+  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode",
+  "dependencies": ["python3"]
+}
