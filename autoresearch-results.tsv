@@ -1,2 +1,12 @@
 iteration	commit	metric	status	description
 0	-	0/7	baseline	no skill.json files exist
+1	3ddd038	1/7	keep	add skill.json for carbonyl
+2	b189714	2/7	keep	add skill.json for cnblogs-post
+3	1a9466d	3/7	keep	add skill.json for fredapi
+4	5ed1166	4/7	keep	add skill.json for keyword-research
+5	02859d4	5/7	keep	add skill.json for lightpanda
+6	ccf1fa0	6/7	keep	add skill.json for marketing-strategy-pmm
+7	f3de5aa	7/7	keep	add skill.json for twitter-post — all 7 skills complete
+8	4900374	7/7	keep	README: add all 7 skills for discoverability
+9	9f42eaa	7/7	keep	add verify-skills.py validation script
+10	bca4030	7/7	keep	add category field to all skill.json
