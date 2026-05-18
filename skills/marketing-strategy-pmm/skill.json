@@ -1,0 +1,24 @@
+{
+  "name": "marketing-strategy-pmm",
+  "version": "1.0.0",
+  "description": "Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Covers April Dunford positioning, ICP definition, competitive battlecards, launch playbooks, and international market entry. Produces positioning statements, battlecard documents, launch plans, and go-to-market strategies.",
+  "author": "Droid",
+  "keywords": ["product-marketing", "GTM", "positioning", "competitive-intelligence", "battlecard", "launch", "PMM", "ICP", "sales-enablement"],
+  "triggers": [
+    "product marketing",
+    "PMM",
+    "positioning",
+    "GTM strategy",
+    "go-to-market",
+    "competitive analysis",
+    "battlecard",
+    "product launch",
+    "market entry",
+    "sales enablement",
+    "win loss analysis"
+  ],
+  "entry": "SKILL.md",
+  "license": "MIT",
+  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode",
+  "dependencies": []
+}
