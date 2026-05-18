@@ -3,7 +3,15 @@
   "version": "0.0.3",
   "description": "终端里的 Chromium 浏览器 — 把网页渲染成 ANSI 彩色终端界面，无需显示器，支持 WebGL、音视频、60 FPS。基于 fathyb/carbonyl。",
   "author": "Droid",
-  "keywords": ["carbonyl", "browser", "terminal", "headless", "webgl", "ansi", "cli"],
+  "keywords": [
+    "carbonyl",
+    "browser",
+    "terminal",
+    "headless",
+    "webgl",
+    "ansi",
+    "cli"
+  ],
   "triggers": [
     "终端浏览器",
     "terminal browser",
@@ -14,5 +22,6 @@
   ],
   "entry": "SKILL.md",
   "license": "MIT",
-  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode"
+  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode",
+  "category": "browser"
 }

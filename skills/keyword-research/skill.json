@@ -3,7 +3,17 @@
   "version": "4.0.0",
   "description": "Discover high-value SEO keywords with search intent analysis, difficulty scoring, topic clustering, and AI citation potential. Use when the user asks to find keywords, keyword research, keyword difficulty score, identify ranking opportunities, topic ideas, or long-tail keyword suggestions.",
   "author": "aaron-he-zhu",
-  "keywords": ["seo", "keywords", "keyword-research", "search-volume", "kd-score", "topic-clusters", "long-tail", "search-intent", "geo"],
+  "keywords": [
+    "seo",
+    "keywords",
+    "keyword-research",
+    "search-volume",
+    "kd-score",
+    "topic-clusters",
+    "long-tail",
+    "search-intent",
+    "geo"
+  ],
   "triggers": [
     "find keywords",
     "keyword research",
@@ -18,5 +28,6 @@
   "entry": "SKILL.md",
   "license": "Apache-2.0",
   "compatibility": "Claude Code ≥1.0, skills.sh marketplace, ClawHub marketplace, Vercel Labs skills ecosystem",
-  "homepage": "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
+  "homepage": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
+  "category": "seo"
 }
