@@ -1,0 +1,19 @@
+{
+  "name": "twitter-post",
+  "version": "1.0.0",
+  "description": "Post tweets to Twitter/X via the official API v2 (OAuth 1.0a). Supports single tweets, threads, replies, quote tweets, and automatic character weight validation including CJK (2x) and URL (23 chars) counting.",
+  "author": "Droid",
+  "keywords": ["twitter", "x", "tweet", "post", "oauth", "api-v2", "thread", "social-media"],
+  "triggers": [
+    "tweet",
+    "post to Twitter",
+    "post to X",
+    "send a thread",
+    "reply to a tweet",
+    "quote tweet"
+  ],
+  "entry": "scripts/tweet.js",
+  "license": "MIT",
+  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode",
+  "dependencies": ["node"]
+}
