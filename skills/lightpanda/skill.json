@@ -1,0 +1,25 @@
+{
+  "name": "lightpanda",
+  "version": "1.0.0-nightly",
+  "description": "Self-contained headless browser for AI agents written in Zig. No Chrome/Chromium needed. 9x faster, 16x less memory than Chrome headless. Exposes MCP tools (markdown, links, semantic_tree, navigate, click, fill, etc.) for AI agent automation.",
+  "author": "Droid",
+  "keywords": ["lightpanda", "headless-browser", "mcp", "browser-automation", "zig", "web-scraping", "cli"],
+  "triggers": [
+    "browse website",
+    "open URL",
+    "scrape",
+    "extract page content",
+    "headless browser",
+    "no Chrome browser",
+    "server-side browsing",
+    "访问网页",
+    "抓取网页",
+    "无头浏览器",
+    "lightpanda",
+    "lightpanda browser"
+  ],
+  "entry": "SKILL.md",
+  "license": "MIT",
+  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode",
+  "dependencies": []
+}
