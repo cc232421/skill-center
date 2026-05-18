@@ -1,0 +1,25 @@
+{
+  "name": "fredapi",
+  "version": "1.0.0",
+  "description": "FRED Economic Data for AI agents — Python library wrapping the FRED (Federal Reserve Economic Data) API. Search, fetch, and analyze thousands of US and international economic indicators (GDP, CPI, unemployment, interest rates, S&P 500, etc.).",
+  "author": "Droid",
+  "keywords": ["fredapi", "FRED", "economic data", "GDP", "CPI", "unemployment", "inflation", "interest rates", "macro", "federal reserve"],
+  "triggers": [
+    "economic data",
+    "FRED",
+    "GDP",
+    "CPI",
+    "inflation",
+    "unemployment rate",
+    "interest rates",
+    "federal reserve",
+    "macroeconomic",
+    "stock market data",
+    "S&P 500",
+    "US economy"
+  ],
+  "entry": "SKILL.md",
+  "license": "MIT",
+  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode",
+  "dependencies": ["python3", "pandas", "fredapi"]
+}
