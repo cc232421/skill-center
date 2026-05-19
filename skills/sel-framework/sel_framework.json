@@ -1,0 +1,42 @@
+{
+  "name": "sel_framework",
+  "version": "2.2.0",
+  "author": "OpenClaw SEL Framework v2.2",
+  "description": "自进化、自学习交易框架 v2.2 — 纯本地算法，8个核心Skill构成7×24无人值守闭环",
+  "category": "framework",
+  "tags": ["self-evolve", "trading", "regime", "rag", "sandbox", "observability"],
+  "framework": true,
+  "self_evolve": true,
+  "skills": [
+    "perception_and_regime",
+    "decision_snapshot",
+    "review_scheduler",
+    "self_review_and_extract",
+    "hierarchical_rag_retriever",
+    "skill_evolution_meta",
+    "sandbox_simulation",
+    "observability_hub"
+  ],
+  "dependencies": {
+    "perception_and_regime": [],
+    "decision_snapshot": ["perception_and_regime"],
+    "review_scheduler": ["decision_snapshot"],
+    "self_review_and_extract": ["decision_snapshot", "review_scheduler"],
+    "hierarchical_rag_retriever": ["decision_snapshot"],
+    "skill_evolution_meta": ["self_review_and_extract"],
+    "sandbox_simulation": ["skill_evolution_meta"],
+    "observability_hub": ["sandbox_simulation"]
+  },
+  "evolution_gate": {
+    "min_sharpe": 1.2,
+    "max_drawdown_pct": 12.0,
+    "pause_on_loss_streak": 3,
+    "pause_on_black_swan_hours": 48
+  },
+  "experience_weight_formula": {
+    "time_decay_days": 30,
+    "time_decay_factor": 0.5,
+    "regime_match_boost": 1.5,
+    "regime_miss_penalty": 0.8
+  }
+}
