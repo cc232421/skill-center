@@ -1,0 +1,29 @@
+{
+  "skill_name": "chanlun",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "帮我用缠论分析平安银行(000001)的日线结构，重点关注中枢和背驰",
+      "expected_output": "获取A股数据，运行ChanLunEngine，输出分型/笔/中枢/背驰结构，给出文字解读",
+      "assertions": []
+    },
+    {
+      "id": 1,
+      "prompt": "BTC/USDT 4H出现背驰了吗？帮我看看最近的买卖点信号",
+      "expected_output": "获取Binance K线数据，检查qs_beichi/pz_beichi字段，报告背驰笔位置和时间",
+      "assertions": []
+    },
+    {
+      "id": 2,
+      "prompt": "腾讯的日K线中枢结构是什么样的？现在是上涨还是下跌趋势？",
+      "expected_output": "获取港股数据(0700.HK)，分析中枢位置，判断趋势方向",
+      "assertions": []
+    },
+    {
+      "id": 3,
+      "prompt": "特斯拉最近的缠论买点信号有哪些？帮我分析一下",
+      "expected_output": "获取美股TSLA数据，分析分型/笔/买卖点",
+      "assertions": []
+    }
+  ]
+}

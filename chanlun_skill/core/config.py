@@ -24,7 +24,10 @@ class ChanConfig:
 
     def __post_init__(self):
         if self.source_priority is None:
-            self.source_priority = SOURCE_PRIORITY_DEFAULT.copy()
+            if self.market == "CRYPTO":
+                self.source_priority = ["binance"]
+            else:
+                self.source_priority = SOURCE_PRIORITY_DEFAULT.copy()
         self._validate()
 
     def _validate(self) -> None:

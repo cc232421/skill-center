@@ -18,7 +18,7 @@ def fetch_binance(symbol: str, period: str, limit: int = 500) -> Optional[pd.Dat
     }
     interval = interval_map.get(period, "1d")
     url = "https://api.binance.com/api/v3/klines"
-    params = {"symbol": f"{symbol}USDT", "interval": interval, "limit": limit}
+    params = {"symbol": symbol.upper(), "interval": interval, "limit": limit}
     try:
         r = requests.get(url, params=params, timeout=10)
         r.raise_for_status()

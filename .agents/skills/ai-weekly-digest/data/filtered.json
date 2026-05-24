@@ -1,0 +1,57 @@
+{
+  "filtered_at": "2026-04-21T16:09:47.947085",
+  "total_tweets": 4,
+  "filtered_count": 3,
+  "by_priority": {
+    "1": 3
+  },
+  "by_category": {
+    "🛠️ 新工具": 1,
+    "💡 提示词技巧": 1,
+    "⚡ 效率提升": 1
+  },
+  "tweets": [
+    {
+      "id": "1234567890",
+      "text": "I built a new AI tool that helps you write better prompts. Here's a step by step guide on how to use it effectively. #AI #tools",
+      "created_at": "2026-04-16T10:00:00Z",
+      "username": "test_user1",
+      "likes": 150,
+      "retweets": 45,
+      "replies": 12,
+      "views": 5000,
+      "url": "https://twitter.com/test_user1/status/1234567890",
+      "priority": 1,
+      "category": "🛠️ 新工具",
+      "reason": "实用的分步教程"
+    },
+    {
+      "id": "1234567891",
+      "text": "Check out this amazing prompt template framework I created for AI assistants. Very practical and easy to adapt.",
+      "created_at": "2026-04-15T10:00:00Z",
+      "username": "test_user1",
+      "likes": 89,
+      "retweets": 23,
+      "replies": 8,
+      "views": 3200,
+      "url": "https://twitter.com/test_user1/status/1234567891",
+      "priority": 1,
+      "category": "💡 提示词技巧",
+      "reason": "可直接使用的提示词模板"
+    },
+    {
+      "id": "2234567891",
+      "text": "Hot take: The best AI workflow is actually the simplest one. Stop overcomplicating things.",
+      "created_at": "2026-04-15T08:00:00Z",
+      "username": "test_user2",
+      "likes": 45,
+      "retweets": 12,
+      "replies": 20,
+      "views": 1500,
+      "url": "https://twitter.com/test_user2/status/2234567891",
+      "priority": 1,
+      "category": "⚡ 效率提升",
+      "reason": "可复用的工作流"
+    }
+  ]
+}

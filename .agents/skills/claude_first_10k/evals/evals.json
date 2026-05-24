@@ -1,0 +1,46 @@
+{
+  "skill_name": "claude_first_10k",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我做了一个AI写作工具，面向中国市场的年轻创作者，预算很紧（小于1万），目前MVP阶段，有什么增长建议？",
+      "expected_output": "完整的增长策略报告，包含痛点分析、用户画像、增长计划（Phase 1-3）、内容资产，且包含中国本地化模块",
+      "files": [],
+      "expectations": [
+        "报告包含 Phase 1/2/3 增长路径",
+        "报告包含中国本地化建议（小红书/知乎/抖音渠道）",
+        "报告包含内容资产（增长故事/FAQ）",
+        "输出 JSON 结构中包含 growth_plan 和 china_localization 字段",
+        "使用了 Stage Router 模块（growth_plan.phases 有 3 个阶段）",
+        "使用了 Pain Analyzer 模块（pain_analysis.primary_pains 不为空）",
+        "使用了 Resource Filter 模块（根据 shoestring 预算过滤手段）"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "帮我看看增长计划里的指标合理吗：Phase 1目标'让更多用户用起来'，Phase 2目标'提升用户活跃度'",
+      "expected_output": "检查指标 SMART 格式，针对不合理的指标给出改写建议",
+      "files": [],
+      "expectations": [
+        "识别出 Phase 1 指标不 SMART（缺乏量化）",
+        "识别出 Phase 2 指标不 SMART（缺乏时间/量化）",
+        "提供改写后的 SMART 指标版本",
+        "输出包含 REVIEW 状态标记"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "我的SaaS产品是给跨境电商用的，目标是美国市场，预算3万，已上线6个月，有一点基础流量。请给我一个增长计划",
+      "expected_output": "完整增长计划，包含定价策略建议（subscription模式）、渠道优先级排序、OKR格式里程碑",
+      "files": [],
+      "expectations": [
+        "报告包含 Pricing Advisor 输出（subscription 定价 tiers）",
+        "报告包含 north_star_metric 字段",
+        "报告包含 priority_matrix（2x2 Impact×Ease）",
+        "报告包含 OKR 格式的关键里程碑",
+        "渠道优先排序包含：SEO/内容/付费广告/社区运营",
+        "美国市场本地化使用英文渠道（Google/LinkedIn/内容营销）"
+      ]
+    }
+  ]
+}
