@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import json
 import sys
+import argparse
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -29,11 +30,12 @@ sys.path.insert(0, str(SCRIPT_DIR))
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("用法: python review_stage_output.py <ticker>", file=sys.stderr)
-        sys.exit(64)
-
-    ticker = sys.argv[1]
+    parser = argparse.ArgumentParser(
+        description="Self-review stage output before HTML generation."
+    )
+    parser.add_argument("ticker", help="股票代码或标识（用于读取 .cache/<ticker>/...）")
+    args = parser.parse_args()
+    ticker = args.ticker
 
     from lib.self_review import review_all, write_review, format_human
 
