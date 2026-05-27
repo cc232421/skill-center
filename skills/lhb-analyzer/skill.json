@@ -1,0 +1,28 @@
+{
+  "name": "lhb-analyzer",
+  "version": "3.3.1",
+  "description": "龙虎榜深度分析技能。识别游资席位，判断机构与游资主导关系，并做同板块龙虎榜对比。",
+  "author": "FloatFu-true",
+  "keywords": [
+    "lhb",
+    "a-share",
+    "hot-money",
+    "market-microstructure",
+    "seat-analysis",
+    "龙虎榜",
+    "游资"
+  ],
+  "triggers": [
+    "谁在买这只票",
+    "最近龙虎榜怎么样",
+    "X游资有没有上榜",
+    "这是不是X的票"
+  ],
+  "entry": "SKILL.md",
+  "license": "MIT",
+  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode",
+  "dependencies": [
+    "institutional-analysis"
+  ],
+  "category": "finance"
+}

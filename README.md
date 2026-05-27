@@ -68,7 +68,13 @@ Product marketing skill for positioning, GTM strategy, competitive intelligence,
 
 50 位投资者评审团投票技能。基于个股维度数据生成每位投资者信号、投票分布与一致性结论。
 
-**触发词：** 评审团、50大佬怎么看、某某会买吗、做一次大佬投票
+**触发词：** 评审团、大佬怎么看、某某会买吗、做一次大佬投票
+
+### lhb-analyzer
+
+龙虎榜深度分析技能。识别游资席位，判断机构 vs 游资博弈，并做同板块龙虎榜辨识度对比。
+
+**触发词：** 谁在买这只票、最近龙虎榜怎么样、X游资有没有上榜、这是不是X的票
 
 ### twitter-post
 
