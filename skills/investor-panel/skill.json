@@ -1,0 +1,25 @@
+{
+  "name": "investor-panel",
+  "version": "3.3.1",
+  "description": "51位投资者评审团投票技能。基于dimensions/raw_data输出信号、投票分布与一致性结论。",
+  "author": "FloatFu-true",
+  "keywords": [
+    "investor-panel",
+    "stocks",
+    "voting",
+    "equity-research",
+    "a-share",
+    "value-investing",
+    "growth-investing"
+  ],
+  "triggers": [
+    "评审团",
+    "50大佬怎么看",
+    "某某会买吗",
+    "做一次大佬投票"
+  ],
+  "entry": "SKILL.md",
+  "license": "MIT",
+  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode",
+  "category": "finance"
+}

@@ -64,6 +64,12 @@ Product marketing skill for positioning, GTM strategy, competitive intelligence,
 
 **触发词：** 专业分析、机构分析
 
+### investor-panel
+
+50 位投资者评审团投票技能。基于个股维度数据生成每位投资者信号、投票分布与一致性结论。
+
+**触发词：** 评审团、50大佬怎么看、某某会买吗、做一次大佬投票
+
 ### twitter-post
 
 Post tweets to Twitter/X via the official API v2 (OAuth 1.0a). Supports single tweets, threads, replies, quote tweets with automatic character weight validation.
