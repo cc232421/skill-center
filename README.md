@@ -58,6 +58,12 @@ Product marketing skill for positioning, GTM strategy, competitive intelligence,
 
 **触发词：** product marketing、PMM、positioning、GTM strategy、go-to-market、competitive analysis、battlecard、product launch
 
+### institutional-analysis
+
+机构级个股分析工作流，覆盖 A 股/港股/美股，输出多维度数据、机构建模、评委裁决与完整研究报告。
+
+**触发词：** 专业分析、机构分析
+
 ### twitter-post
 
 Post tweets to Twitter/X via the official API v2 (OAuth 1.0a). Supports single tweets, threads, replies, quote tweets with automatic character weight validation.
