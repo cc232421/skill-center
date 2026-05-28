@@ -1,0 +1,29 @@
+{
+  "name": "trap-detector",
+  "version": "3.3.1",
+  "description": "杀猪盘检测技能。基于8类风险信号扫描个股推广异常并输出风险评级与证据。",
+  "author": "FloatFu-true",
+  "keywords": [
+    "trap-detection",
+    "pump-and-dump",
+    "risk",
+    "a-share",
+    "fraud-detection",
+    "杀猪盘"
+  ],
+  "triggers": [
+    "看看是不是杀猪盘",
+    "检测一下风险",
+    "这只票安全吗",
+    "朋友推荐",
+    "群里说",
+    "老师带"
+  ],
+  "entry": "SKILL.md",
+  "license": "MIT",
+  "compatibility": "Claude Code ≥1.0, OpenClaw, OpenCode",
+  "dependencies": [
+    "institutional-analysis"
+  ],
+  "category": "finance"
+}

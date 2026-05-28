@@ -76,6 +76,12 @@ Product marketing skill for positioning, GTM strategy, competitive intelligence,
 
 **触发词：** 谁在买这只票、最近龙虎榜怎么样、X游资有没有上榜、这是不是X的票
 
+### trap-detector
+
+杀猪盘检测技能。扫描 8 类风险信号，输出风险评级与证据链接，辅助识别异常荐股与推广盘。
+
+**触发词：** 看看是不是杀猪盘、检测一下风险、这只票安全吗、朋友推荐、群里说、老师带
+
 ### twitter-post
 
 Post tweets to Twitter/X via the official API v2 (OAuth 1.0a). Supports single tweets, threads, replies, quote tweets with automatic character weight validation.
