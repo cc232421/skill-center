@@ -1,0 +1,29 @@
+{
+  "skill_name": "bayesian-supply-chain-investment-research",
+  "evals": [
+    {
+      "id": 1,
+      "name": "ai-datacenter-cpo-analysis",
+      "prompt": "使用贝叶斯供应链投研方法，对 AI 数据中心 CPO（共封装光学）供应链进行深度分析。重点分析 AAOI、SIVE 等潜在瓶颈点，输出：1) 完整供应链地图 2) 先验概率表 3) 与市场共识的认知差分析 4) 初始仓位建议",
+      "expected_output": "包含供应链地图、先验概率表（量化P(H)值）、认知差分析（Edge计算）、仓位建议（含止损条件）的结构化投研报告",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 2,
+      "name": "posterior-update-with-new-evidence",
+      "prompt": "对 AAOI 进行信念更新。新证据：1) Q4财报超预期，收入同比增长35% 2) 获得Google 200万只光模块订单 3) 主要竞争对手Lumentum宣布退出EML市场。使用贝叶斯更新计算最新后验概率，并给出仓位调整建议。",
+      "expected_output": "证据强度分类、贝叶斯更新计算过程（前后验对比）、基于后验概率的仓位调整建议（加仓/减仓/止损）",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 3,
+      "name": "supply-chain-mapping-photonics",
+      "prompt": "绘制硅光子(SiPh)产业链的完整供应链地图，从下游数据中心到上游衬底材料。识别潜在瓶颈点，并为每个瓶颈点分配先验概率（成为关键供应链瓶颈的概率）。",
+      "expected_output": "多层供应链地图（下游→OEM→中游→上游→原材料）、瓶颈点识别、每个瓶颈点的先验概率P(H)及核心理由",
+      "files": [],
+      "assertions": []
+    }
+  ]
+}
