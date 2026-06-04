@@ -1,0 +1,39 @@
+{
+  "name": "binance-smart-money",
+  "version": "0.1.0",
+  "description": "OpenClaw workflow for installing, validating, running, and interpreting 0xBennie/binance-smart-money-tracker. Covers Binance Smart Signal whale data, top-trader ratios, open interest, SQLite snapshots, dashboard checks, rate-limit safety, and offline fixture validation.",
+  "author": "OpenClaw Skill Center",
+  "keywords": [
+    "binance",
+    "smart-money",
+    "futures",
+    "whales",
+    "open-interest",
+    "sqlite",
+    "dashboard",
+    "market-structure",
+    "crypto"
+  ],
+  "triggers": [
+    "Binance Smart Money",
+    "Binance Smart Signal",
+    "smart money tracker",
+    "巨鲸持仓",
+    "币安聪明钱",
+    "open interest",
+    "long short ratio",
+    "部署 Binance 巨鲸监控",
+    "验证 binance-smart-money-tracker"
+  ],
+  "entry": "SKILL.md",
+  "license": "MIT",
+  "compatibility": "Claude Code >=1.0, OpenClaw, OpenCode",
+  "dependencies": [
+    "node >=20",
+    "npm",
+    "python3",
+    "sqlite3 optional for live smoke validation"
+  ],
+  "category": "finance"
+}
+

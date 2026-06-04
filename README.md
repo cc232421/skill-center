@@ -76,6 +76,12 @@ Product marketing skill for positioning, GTM strategy, competitive intelligence,
 
 **触发词：** 谁在买这只票、最近龙虎榜怎么样、X游资有没有上榜、这是不是X的票
 
+### binance-smart-money
+
+Binance Smart Signal 巨鲸持仓监控工作流。封装 `0xBennie/binance-smart-money-tracker` 的安装、离线验证、低频实网 smoke test、SQLite/dashboard 检查与持仓解读，默认不下单、不提供直接交易指令。
+
+**触发词：** Binance Smart Money、Binance Smart Signal、巨鲸持仓、币安聪明钱、smart money tracker、open interest
+
 ### trap-detector
 
 杀猪盘检测技能。扫描 8 类风险信号，输出风险评级与证据链接，辅助识别异常荐股与推广盘。

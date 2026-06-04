@@ -1,0 +1,38 @@
+{
+  "symbol": "BTCUSDT",
+  "snapshot_ts": 1760000000000,
+  "smart_money": {
+    "symbol": "BTCUSDT",
+    "ts": 1760000000000,
+    "totalPositions": 1260.5,
+    "totalTraders": 1000,
+    "longShortRatio": 0.82,
+    "longTraders": 450,
+    "longTradersQty": 180.2,
+    "longTradersAvgEntryPrice": 62000,
+    "shortTraders": 550,
+    "shortTradersQty": 160.7,
+    "shortTradersAvgEntryPrice": 65500,
+    "longWhales": 90,
+    "longWhalesQty": 90.1,
+    "longWhalesAvgEntryPrice": 61800,
+    "shortWhales": 110,
+    "shortWhalesQty": 80.3,
+    "shortWhalesAvgEntryPrice": 65700,
+    "longProfitTraders": 210,
+    "shortProfitTraders": 410,
+    "longProfitWhales": 42,
+    "shortProfitWhales": 88
+  },
+  "open_interest": {
+    "symbol": "BTCUSDT",
+    "ts": 1760000000000,
+    "oiNowUsd": 28000000000,
+    "oiNowCoins": 430000,
+    "oiChg5m": 0.4,
+    "oiChg15m": 1.2,
+    "oiChg1h": 3.1,
+    "oiChg4h": null
+  }
+}
+
