@@ -1,0 +1,35 @@
+{
+  "skill_name": "kani-verify",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have this Rust function that computes the average of two integers. Can you verify it won't panic or overflow?\n\nfn integer_average(a: i32, b: i32) -> i32 {\n    (a + b) / 2\n}",
+      "expected_output": "Tool detects arithmetic overflow, generates LLM prompt with counterexample a=2147483647",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I wrote a function to find the lowest unset bit in a u32. My friend says this optimized version is better but I'm not sure it's correct. Can you prove they're equivalent?\n\nOriginal:\nfn lowest_unset_bit_ori(x: u32) -> Option<u8> {\n    let mut mask = 1;\n    for i in 0..32 {\n        if x & mask == 0 { return Some(i); }\n        mask <<= 1;\n    }\n    None\n}\n\nOptimized:\nfn lowest_unset_bit_opt(x: u32) -> Option<u8> {\n    if x == std::u32::MAX { return None; }\n    let y = x | (x + 1);\n    let z = y ^ (y + 1);\n    Some((z.trailing_zeros() % 32) as u8)\n}",
+      "expected_output": "Tool detects overflow in x + 1 and equivalence failure, generates LLM prompt with counterexample x=2147483647",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Run kani-verify on my function to make sure it doesn't divide by zero.\n\nfn safe_div(a: i32, b: i32) -> i32 {\n    a / b\n}",
+      "expected_output": "Tool detects division by zero, generates prompt suggesting to add a zero-check",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "I generated this code with ChatGPT and want to make sure it's safe before using it in production:\n\nfn sum_all(nums: &[i32]) -> i32 {\n    let mut total = 0;\n    for n in nums {\n        total += n;\n    }\n    total\n}",
+      "expected_output": "Tool detects potential overflow in total += n, generates prompt with overflow fix suggestion",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Is kani-verify installed and working? Can you check?",
+      "expected_output": "Tool runs kani-verify check, reports Kani version if installed, or install instructions if not",
+      "files": []
+    }
+  ]
+}
