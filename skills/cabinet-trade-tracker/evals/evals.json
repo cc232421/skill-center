@@ -1,0 +1,24 @@
+{
+  "skill_name": "cabinet-trade-tracker",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Download Open Cabinet data and generate a normalized CSV plus a short summary of executive branch trades.",
+      "expected_output": "normalized_trades.csv, source_manifest.json, and summary.md with row count, buy/sell counts, midpoint totals, and limitations.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Compare Donald Trump trades from Open Cabinet with QuiverQuant and list differences without mixing excess return into dollar totals.",
+      "expected_output": "A comparison report, discrepancy CSV, preserved Quiver excess_return field, and no amount totals based on excess_return.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Filter Open Cabinet trades for a ticker or official and explain late filings and amount ranges.",
+      "expected_output": "Filtered normalized rows with source attribution, late_filing values, amount ranges, midpoint estimates, and caveats.",
+      "files": []
+    }
+  ]
+}
+

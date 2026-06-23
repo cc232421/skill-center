@@ -1,0 +1,51 @@
+{
+  "exportedAt": "2026-06-18",
+  "officials": [
+    {
+      "name": "Trump, Donald J.",
+      "slug": "trump-donald-j",
+      "title": "President of the United States",
+      "agency": "Executive Office of the President",
+      "level": "Cabinet",
+      "transactions": [
+        {
+          "description": "Vanguard S&P 500 ETF",
+          "ticker": "VOO",
+          "type": "Purchase",
+          "date": "2026-03-02",
+          "amount": "$1,000,001-$5,000,000",
+          "midpoint": 3000000,
+          "lateFilingFlag": true
+        },
+        {
+          "description": "State Street SPDR S&P 500 ETF Trust",
+          "ticker": "SPY",
+          "type": "Sale",
+          "date": "2026-03-05",
+          "amount": "$1,000,001-$5,000,000",
+          "midpoint": 3000000,
+          "lateFilingFlag": false
+        }
+      ]
+    },
+    {
+      "name": "Kennedy, Robert F",
+      "slug": "kennedy-robert-f",
+      "title": "Secretary",
+      "agency": "Department of Health and Human Services",
+      "level": "Cabinet",
+      "transactions": [
+        {
+          "description": "Apple, Inc.",
+          "ticker": "AAPL",
+          "type": "Sale",
+          "date": "2025-03-27",
+          "amount": "$1,001-$15,000",
+          "midpoint": 8000,
+          "lateFilingFlag": true
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,4 @@
+official_name,title,agency,level,asset_description,ticker,type,date,amount_range,midpoint_estimate,late_filing_flag
+"Trump, Donald J.","President of the United States","Executive Office of the President","Cabinet","Vanguard S&P 500 ETF","VOO","Purchase","2026-03-02","$1,000,001-$5,000,000","3000000","true"
+"Kennedy, Robert F","Secretary","Department of Health and Human Services","Cabinet","Apple, Inc.","AAPL","Sale","2025-03-27","$1,001-$15,000","8000","true"
+
