@@ -1,0 +1,43 @@
+{
+  "version": "v1",
+  "evolved_at": "2026-05-26",
+  "fitness": 0.0,
+  "params": {
+    "macd": {
+      "fast": 12,
+      "slow": 26,
+      "signal": 9
+    },
+    "fractal": {
+      "strictness": 1.0
+    },
+    "stroke": {
+      "min_bars": 5,
+      "merge_threshold": 0.0
+    },
+    "beichi": {
+      "pz_area_ratio": 0.6,
+      "macd_divergence_threshold": 0.05
+    },
+    "mm_score_weights": {
+      "1buy": 30,
+      "2buy": 25,
+      "3buy": 20,
+      "l2buy": 15,
+      "1sell": 25,
+      "2sell": 20,
+      "3sell": 15,
+      "qs_beichi": 20,
+      "pz_beichi": 10
+    },
+    "signal_strength": {
+      "strong_threshold": 0.4,
+      "medium_threshold": 0.15
+    },
+    "filters": {
+      "volume_confirm": false,
+      "volume_ratio": 1.2,
+      "multi_tf": false
+    }
+  }
+}
