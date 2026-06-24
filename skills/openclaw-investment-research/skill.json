@@ -1,0 +1,44 @@
+{
+  "name": "openclaw-investment-research",
+  "version": "2.0.0",
+  "description": "OpenClaw 中文深度投研报告生产与审计 Skill。把公开资料、研报、公告、财报、纪要、新闻、行业数据、财务预测和用户观点转化为结构化、可审计、可迭代的投研输出，覆盖认知差、产业链、盈利模型、估值框架、情景分析、风险反证、质量评分与免责声明。",
+  "author": "OpenClaw Skill Center",
+  "userInvocable": true,
+  "keywords": [
+    "openclaw",
+    "investment-research",
+    "equity-research",
+    "投研报告",
+    "公司深度",
+    "行业深度",
+    "认知差",
+    "估值框架",
+    "SOTP",
+    "DCF",
+    "投资备忘录",
+    "研报审计"
+  ],
+  "triggers": [
+    "分析这家公司",
+    "把这些资料整理成投研报告",
+    "帮我提炼投资逻辑",
+    "做一个行业深度框架",
+    "写一篇公司深度",
+    "帮我搭 SOTP 估值框架",
+    "帮我搭 DCF 估值框架",
+    "审计这篇研报逻辑",
+    "找出这家公司后续跟踪指标",
+    "把卖方研报改成自己的研究框架",
+    "生成投资备忘录",
+    "用 OpenClaw 框架分析"
+  ],
+  "entry": "SKILL.md",
+  "license": "MIT",
+  "compatibility": "Claude Code >=1.0, OpenClaw, OpenCode",
+  "dependencies": [
+    "No runtime dependency for core workflow",
+    "python3 optional for validation"
+  ],
+  "category": "finance"
+}
+
